@@ -48,8 +48,8 @@ def download_zip_files(url, directory, limit_speed=None):
 
 
 if __name__ == "__main__":
-    url = "https://kemono.su/fanbox/user/13172341/post/6022954"
-    name = "「えっちな全差分5,760枚」あなたがイクとこを見たがるウェイトレスのルナちゃん (Pixiv Fanbox)"
+    url = ""
+    name = ""
     directory = os.path.join("D:", "Pics", name)
     os.makedirs(directory, exist_ok=True)
     download_zip_files(url, directory, limit_speed=1.0)
